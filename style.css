@@ -33,6 +33,7 @@ margin-top: 50px;
 
 #main
 {
+    border: 2px solid #7ca6ce;
     display: flex;
     max-width: 960px;
     margin: 20px auto 20px;
