@@ -1,0 +1,87 @@
+#h
+{
+    width: 100%;
+    background-color: lightblue;
+    height: 120px;
+    display: flex;
+    border: 2px solid #7ca6ce;
+}
+
+nav
+{
+    position: absolute;       
+    top: 10px;                 
+    right: 5px;           
+    gap: 10px;
+    border-bottom: 2px solid #7ca6ce;
+    border-left: 2px solid #7ca6ce;
+    padding: 5px;
+}
+
+#logo
+{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    float: left;
+}
+
+#ns
+{
+margin-top: 50px;
+}
+
+#main
+{
+    display: flex;
+    max-width: 960px;
+    margin: 20px auto 20px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#hyp
+{
+    max-width: 800px;
+    background-color: lightblue;
+    border: 2px solid #7ca6ce;
+    padding: 10px;
+}
+
+#tab
+{
+    max-width: 800px;
+    background-color: lightblue;
+    padding: 10px;
+    border: 2px solid #7ca6ce;
+}
+
+tbody tr:nth-child(even)
+{
+    background-color: lightgoldenrodyellow;
+}
+
+thead tr
+{
+    background-color: lightgoldenrodyellow;
+}
+
+tbody tr:nth-child(odd)
+{
+    background-color: #c0c0c0;
+}
+
+#frm
+{
+    max-width: 800px;
+    background-color: lightblue;
+    padding: 10px;
+    border: 2px solid #7ca6ce;
+}
+
+#footer
+{
+    width: 100%;
+    background-color: lightblue;
+    border: 2px solid #7ca6ce;
+}
